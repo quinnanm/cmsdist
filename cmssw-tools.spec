@@ -111,6 +111,7 @@ Requires: grpc
 Requires: onnxruntime
 %{!?without_tensorflow:Requires: tensorflow tensorflow-xla-runtime}
 Requires: TOoLLiP
+Requires: alkaid
 Requires: triton-inference-client
 Requires: hdf5
 Requires: yaml-cpp

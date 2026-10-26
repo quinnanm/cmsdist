@@ -1,0 +1,9 @@
+<tool revision="1">
+  <info url="https://github.com/calad0i/alkaid"/>
+  <lib name="alkaid_alir"/>
+  <use name="zlib"/>
+  <client>
+    <environment name="INCLUDE"      default="$TOOL_BASE/include"/>
+    <environment name="LIBDIR"       default="$TOOL_BASE/lib"/>
+  </client>
+</tool>
